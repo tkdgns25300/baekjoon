@@ -18,7 +18,7 @@ for (let i = 1; i <= numOfPlay; i++) {
 }
 
 function isWin(me, you) {
-	if ((me === "S" && you == "P") || (me === "R" && you == "S") || (me === "P" && you == "R")) {
+	if ((me === "S" && you == "P") || (me === "R" && you == "S") || (me === "P" && you == "R") || me === "0") {
 		return true;
 	}
 	return false;
